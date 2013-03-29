@@ -29,8 +29,7 @@ public class AddFrame extends JFrame {
 	//该Frame的JPanel
 	private JPanel mainPanel;
 	
-	private JPanel mainPane2;
-	
+	private JPanel mainPanel3333;
 	//项目名称
 	private JPanel namePanel;
 	
