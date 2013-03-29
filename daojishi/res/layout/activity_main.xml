@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll" >
+   <!--重叠显示效果的选用 FrameLayout布局最合适 -->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+    <ImageView
+        android:background="@drawable/ic_launcher"
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <com.example.daojishi.MyCircle
+            android:id="@+id/myCicle"
+            android:layout_width="180dip"
+            android:layout_height="180dip" />
+
+        <com.example.daojishi.MyShanXing
+            android:id="@+id/myShangXing"
+            android:layout_width="150dip"
+            android:layout_height="150dip"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+</LinearLayout>
